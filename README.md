@@ -1,4 +1,4 @@
-# User Interface
+# bubl-backend
 Bubl: Imagine a social platform that helps students transition from elementary school to middle school. Bubl is a school specific social network and friendship connection tool. 
 
 User can create an account, join an existing school account, and search for existing bubls to join. They can explore interests through hashtag searches. They can connect with others and share experiences.  
@@ -7,26 +7,26 @@ Vision Overview: https://lambdaschool.monday.com/protected_static/1785069/resour
 
 - **All Team members** are to work together to fill out their relevant pieces of the Bubl Technical Design Document (TDD) - https://docs.google.com/document/d/1VpjI7Rp9BRtLEpuDDszcPeO_7V-DhIJEeVC2_hLn8pc/edit
 
-Milestone Guidlines:
+**Daily Milestones:**
 
-Monday
+Monday:
 
-- Marketing landing page scaffolded with common layout structure implemented,
-- Mobile screen width features starting to come into play.
-- Lorem ipsum can be used to fill in your content on your pages. Links listed below.
-    - [https://www.bobrosslipsum.com/](https://www.bobrosslipsum.com/)
-    - [https://www.lipsum.com/](https://www.lipsum.com/)
+- Node/Express and all required packages for things like CORS, Body-Parser, JWT installed and.
+- User Login/Signup endpoints built out including the User Models Use JWT/Sessions strategies learned in Authentication.
+- React app and Backend App talking to one another focus on CORS issues.
+- Data Migrations and Seeds set up for mock data.
+- **IF working with a Data Scientist -** Please ensure that you're collaborating about data formats i.e. JSON and schema fields so that you can use Mock data until your model is ready.
 
-Tuesday
+Tuesday:
 
-- ****Marketing site including all pages fully responsive to Mobile and Desktop screen widths.
-- All pages laid out all that's left for each page are styling tweaks.
-- ****Marketing "Login" call to action links user to the Deployed React app login screen.
+- 80% of endpoints built.
+- All data models fully fleshed out.
 
-Wednesday
+Wednesday:
 
-- Marketing site replace placeholder copy with description of product. Be creative here. Really try and describe your project, your project's features and of course have a cool "About Us" page with relevant copy that describes your team members and their roles.
-- All marketing site pages fully responsive and built out, may still need to polish up styling and layout.
+- 100% of endpoints built (Backend).
+
+Thursday:
 
 **Thursday - Milestones - FEATURE FREEZE 🥶**
 
@@ -34,7 +34,6 @@ Wednesday
     - No new features past 11AM PST/GMT.
     - Polish everything.
     - Strong emphasis on bug fixes and UI/UX.
-    
     
 - **All Team Members -** Document your projects within the Readme files in their Github repositories. Without having to talk to you specifically, any developer should be able to install, contribute to, and run your project based on the descriptions found in your readme.
 
